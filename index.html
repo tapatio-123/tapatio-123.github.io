@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project Summary Page</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="WebVisualizations/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <form class="form-inline">
+      <a role="button" class="btn btn-outline-primary" href="index.html">PHOENIX</a>
+    </form>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="zip_bus.html">Zipcode Vs. Bus Stops</a>
+            <a class="dropdown-item" href="bus_income.html">Bus Stops Vs. Income</a>
+            <a class="dropdown-item" href="income_poverty.html">Income Vs. Poverty</a>
+            <a class="dropdown-item" href="zip_income.html">Zipcode Vs. Income</a>
+          </div>
+        <li class="nav-item active">
+          <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="phx_data.html">Data</a>
+        </li>      
+       </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <div class = "container">
+        <h1>Project Summary - Phoenix Bus Stops</h1>
+        <hr>
+      <div class= "media">
+      <div class = "row">
+        <div class = "col-md-8">
+            <div class = "box">
+              <h3>The Mission</h3>
+              <hr>
+              <h2>With everyone being stuck at home due to the pandemic, we wanted to see the effects that it was having on public 
+                transportaion in Arizona. After looking at the Valley Metro CSV's we decided that there were too many data points and 
+                that we needed to narrow down our search. We agreed to look at only the cities where the lightrail was in order to do a 
+                comparison of bus stops to rail stops which gave us three cities; Phoenix, Tempe and Mesa. Our mission was to find the 
+                anwsers to the following questions for each of the three cities that we wanted to focus on, our questions were:</h2>
+              <br>
+              <h2>(1) How has COVID impacted bus/rail ridership?</h2>
+              <br>
+              <h2>(2) How does income and poverty affect public transit use?</h2>
+              <br>
+              <h2>(3) Are there obvious trends in ridership numbers and the poverty/income/population numbers of a given zipcode?</h2>
+              <br>
+              <h2>(4) What kind of effect does popluation have on ridership?</h2>
+              <br>
+              <h2>Our expectations are the ridership will be effected by the population in that higher zipcode populations will give us 
+                a reuslt of more ridership. Lower income zipcodes will have more bus stops, and that there will be obvious trends in 
+                ridership comparing weekdays to weekends. We also assume that COVID has drastically decreased the amount of ridership on 
+                both bus stops and rail riding.</h2>
+            </div>
+            <article>
+              <div class="thumbnail">
+              <a target="_blank" href="zip_bus.html">
+                <img src="WebVisualizations/Resources/zip_bus.png" alt="zipcode_vs_number_of_bus_stops" class="img-thumbnail">
+              </a>
+              <br>
+              <br>
+              <p><em>Zipcode vs. Bus Stops</em></p>
+            </div>
+            </article>
+        </div>
+      <div class = "col-md-4">
+        <div class = "box">
+          <hr>
+          <h1> Visualizations </h1>
+          <hr>
+          <article>
+            <div class="thumbnail">
+            <a target="_blank" href="zip_bus.html">
+            <img src="WebVisualizations/Resources/zip_bus.png" alt="zipcode_vs_number_of_bus_stops" class="img-thumbnail">
+            </a>
+            <br>
+            <br>
+            <p><em>Zipcode vs. Bus Stops</em></p>
+            </div>
+          </article>
+          <hr>
+          <article>
+            <div class="thumbnail">
+            <a target="_blank" href="bus_income.html">
+            <img src="WebVisualizations/Resources/bus_stops_income.png" alt="bus_stops_vs_income" class="img-thumbnail">
+            </a>
+            <br>
+            <br>
+            <p><em>Bus Stops vs. Income</em></p>
+            </div>
+          </article>
+          <hr>
+          <article>
+            <div class="thumbnail">
+            <a target="_blank" href="income_poverty.html">
+            <img src="WebVisualizations/Resources/income_poverty.png" alt="income_vs_poverty" class="img-thumbnail">
+            </a>
+            <br>
+            <br>
+            <p><em>Income vs. Poverty</em></p>
+            </div>
+          </article>
+            <hr>
+            <!-- button, style = "250px" -->
+          <article>
+            <div class="thumbnail">
+            <a target="_blank" href="zip_income.html">
+            <img src="WebVisualizations/Resources/zip_income.png" alt="zipcode_vs_income" class="img-thumbnail">
+            </a>
+            <br>
+            <br>
+            <p><em>Zipcode vs. Income</em></p>
+            </div>
+          </article>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+</body>
+
+</html>

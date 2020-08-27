@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Project Summary Page</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="WebVisualizations/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <form class="form-inline">
+        <a role="button" class="btn btn-outline-primary" href="index.html">PHOENIX</a>
+      </form>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="zip_bus.html">Zipcode Vs. Bus Stops</a>
+              <a class="dropdown-item" href="bus_income.html">Bus Stops Vs. Income</a>
+              <a class="dropdown-item" href="income_poverty.html">Income Vs. Poverty</a>
+              <a class="dropdown-item" href="zip_income.html">Zipcode Vs. Income</a>
+            </div>
+          <li class="nav-item active">
+            <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="phx_data.html">Data</a>
+          </li>      
+         </li>
+        </ul>
+      </div>
+    </nav>
+
+<section>
+    <div class = "container">
+      <h1>Income vs. Poverty</h1>
+      <hr>
+    <div class= "media">
+    <div class = "row">
+      <div class = "col-md-8">
+          <article>
+            <div class="thumbnail">
+            <a target="_blank" href="income_poverty.html">
+              <img src="WebVisualizations/Resources/income_poverty.png" alt="income_vs_poverty" class="img-thumbnail">
+            </a>
+            <br>
+            <br>
+            <p><em>Income vs. Poverty</em></p>
+          </div>
+          </article>
+          <div class = "box">
+            <h2> This graph shows that the relationship between income poverty. The circle size is dependant on the
+                number of bus stops per zipcode. We can see that as the poverty level increases the number circles get larger
+                indicating that there are more bus stops in lower income zipcodes. This also shows us that the zipcodes with 
+                higher income have little to no access to public transportation.  </h2>
+          </div>
+      </div>
+      <br>
+    <div class = "col-md-4">
+            <div class = "box">
+            <hr>
+            <h1> Visualizations </h1>
+            <hr>
+            <article>
+                <div class="thumbnail">
+                <a target="_blank" href="zip_bus.html">
+                <img src="WebVisualizations/Resources/zip_bus.png" alt="zipcode_vs_number_of_bus_stops" class="img-thumbnail">
+                </a>
+                <br>
+                <br>
+                <p><em>Zipcode vs. Bus Stops</em></p>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="thumbnail">
+                <a target="_blank" href="bus_income.html">
+                <img src="WebVisualizations/Resources/bus_stops_income.png" alt="bus_stops_vs_income" class="img-thumbnail">
+                </a>
+                <br>
+                <br>
+                <p><em>Bus Stops vs. Income</em></p>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="thumbnail">
+                <a target="_blank" href="income_poverty.html">
+                <img src="WebVisualizations/Resources/income_poverty.png" alt="income_vs_poverty" class="img-thumbnail">
+                </a>
+                <br>
+                <br>
+                <p><em>Income vs. Poverty</em></p>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <div class="thumbnail">
+                <a target="_blank" href="zip_income.html">
+                <img src="WebVisualizations/Resources/zip_income.png" alt="zipcode_vs_income" class="img-thumbnail">
+                </a>
+                <br>
+                <br>
+                <p><em>Zipcode vs. Income</em></p>
+                </div>
+            </article>
+        </div>
+    </div>
+    </div>
+ </div>
+</section>
+</body>
+</html>
