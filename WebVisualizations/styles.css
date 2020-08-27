@@ -17,40 +17,12 @@ h3{
   font-size: 30px;
   color: black;
   text-align:left;
-
 }
-img {
+img{
     box-shadow: 10px 10px 1px black;
 }
-/*.navbar {
-  padding: 10px;
-  background: #5191fd;
-}
 
-.navbar li {
-  display: inline-block;
-  padding: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  cursor: pointer;
-  background: #fff;
-  border-radius: 3px;
-}
-navbar li a {
-  color: #000;
-  text-decoration: none;
-}
-*/
-  
-/*
-  .post {
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
-  }
-*/
-  .box {
-    /*height: 400px;*/
+.box {
     padding: 20px;
     color: black;
     background: rgb(245, 243, 236);
@@ -62,23 +34,4 @@ navbar li a {
       background: rgb(162, 135, 192); 
 
     }
-
-
-/*
-    .thumbnail{
-      max-width: 500;
-      height: auto
-    }
-    .post {
-      margin-top: 50px;
-      margin-right: 100px;
-      margin-left: 100px;
-    }
-  
-    .box {
-      height: 400px;
-      padding: 20px;
-      color: rgb(9, 119, 95);
-      background: deepskyblue;
-    }
-}*/
+  }
